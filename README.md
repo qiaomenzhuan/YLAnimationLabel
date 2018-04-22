@@ -1,6 +1,6 @@
 # YLAnimationLabel
 项目中有倒计时，各方代表墙裂要求动感效果，如下：
-![ezgif.com-resize.gif](MyImages/6206716-3ff68ebe61113cd5.gif)
+![ezgif.com-resize.gif](https://upload-images.jianshu.io/upload_images/6206716-3ff68ebe61113cd5.gif?imageMogr2/auto-orient/strip)
 
 没错，细心的你会发现我这个label碉堡了有木有。不光会让数字动起来，任何字符串都支持！还支持动画的方向！！！
 
@@ -62,7 +62,4 @@ CAAnimationGroup *group = [CAAnimationGroup animation];
     [group setValue:@"topToCenterAnimation" forKey:@"animType"];
     [label.layer addAnimation:group forKey:@"labela"];
 ```
-
-最后附上demo地址[YLAnimationLabel](https://github.com/qiaomenzhuan/YLAnimationLabel.git)
-
 以上。
